@@ -1,0 +1,22 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "TeMPOraL",
+    "longName": "hskrk-test",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "hskrk-test",
+    "targetPlatforms": [
+        "aplite"
+    ],
+    "uuid": "77600f9d-f1ee-4dc6-86d8-2516be2342c3",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
