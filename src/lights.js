@@ -7,8 +7,25 @@ var xhrRequest = function (url, type, callback) {
   xhr.send();
 };
 
+function getLights() {
+  //TODO
+}
+
+function getSensors() {
+  //TODO
+}
+
+function getWhois() {
+  //TODO
+}
+
+function toggleLight(light) {
+  //available: kitchen, corridor, softroom, hardroom
+  xhrRequest('http://al2.hskrk.pl/api/v2/light/toggle/' + light, 'GET', function(txt) { console.log(txt);});
+}
+
 function toggleKitchenLight() {
-  xhrRequest('http://al2.hskrk.pl/api/v2/light/toggle/kitchen', 'GET', function(txt) { console.log(txt);});
+  toggleLight('kitchen');
 }
 
 Pebble.addEventListener('ready', function(e) {

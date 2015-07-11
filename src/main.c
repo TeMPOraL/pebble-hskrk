@@ -10,6 +10,17 @@ enum {
 static Window* mainWindow;
 static TextLayer* textLayer;
 
+//TODO
+//- handlers for:
+//  - sensor update
+//  - light status update
+//  - whois update
+//- menu for lights
+//- screens
+//  - general status
+//  - sensor graphs (maybe > 1 screen)
+
+
 static void up_click_handler(ClickRecognizerRef recognizer, void *context) {
   text_layer_set_text(textLayer, "Up pressed!");
   DictionaryIterator *iter;
